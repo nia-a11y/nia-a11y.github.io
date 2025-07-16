@@ -7,7 +7,7 @@ import starlightFullViewMode from 'starlight-fullview-mode';
 import starlightUtils from "@lorenzo_lewis/starlight-utils";
 import sitemap from '@astrojs/sitemap';
 
-const commonKeywords = "접근성, 제작기법, KWCAG2.2, accessibility, Korean, A11Y";
+const commonKeywords = "웹, 접근성, 콘텐츠, 제작기법, KWCAG2.2, accessibility, Korean, A11Y";
 
 export default defineConfig({
     site: 'https://nia-a11y.github.io/kwcag22tech/',
