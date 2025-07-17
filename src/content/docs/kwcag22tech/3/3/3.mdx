@@ -3,7 +3,7 @@ title: 3.3.3. 접근 가능한 인증
 description: 인증 과정은 인지 기능 테스트에만 의존해서는 안 된다.
 outline: { label:false }
 lastUpdated: 2025-03-31
-draft: true
+draft: false
 ---
 import { Aside, Badge, Card } from '@astrojs/starlight/components';
 
@@ -51,7 +51,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 다음은 메일로 전송된 인증 코드를 복사하여 인증 코드 입력창에 붙여 넣을 수 있도록 허용한 사례이다.
 
 <figure>
-	![](/images/kwcag22tech/image248.png)
+	![](/images/kwcag22tech/333/01.png)
 	<figcaption>이미지. 브라우저 비밀번호 저장 기능을 활용한 사례(왼쪽)와 인증 코드 입력 시 붙여넣기 허용한 사례 (출처: 레고)</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 사용자에게 익숙한 소셜 미디어나 이메일 계정을 통해 인증할 수 있도록 oAuth와 같은 공개 인증 방식을 제공한다.
 
 <figure>
-	![](/images/kwcag22tech/image249.png)
+	![](/images/kwcag22tech/333/02.png)
 	<figcaption>이미지. 타사 계정을 통한 로그인 제공 사례 (출처: 마켓컬리)</figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 단, QR 코드 스캔 등 시각적 입력이 필요한 경우에는 시각을 활용하기 어려운 사용자를 위한 대체 방안을 제공해야 한다.
 
 <figure>
-	![](/images/kwcag22tech/image250.png)
+	![](/images/kwcag22tech/333/03.png)
 	<figcaption>이미지. 기기 간 패스키를 통한 대체 인증 제공 예시</figcaption>
 </figure>
 
@@ -81,12 +81,12 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 이 방법을 통해 사용자는 복잡한 비밀번호를 기억하거나 퍼즐을 푸는 등의 인지 부담을 줄일 수 있으며, 별도의 인지 기능 테스트 없이도 안전하고 편리하게 인증을 완료할 수 있다. 이러한 접근 방식은 다양한 사용자에게 편의를 제공하며, 접근 가능한 인증을 구현하는 대표적인 사례가 된다.
 
 <figure>
-	![](/images/kwcag22tech/image251.png)
+	![](/images/kwcag22tech/333/04.png)
 	<figcaption>이미지. 이메일로 인증할 수 있는 사례 (출처: Medium)</figcaption>
 </figure>
 
 <figure>
-	![](/images/kwcag22tech/image252.png)
+	![](/images/kwcag22tech/333/05.png)
 	<figcaption>이미지. 접속할 수 있는 인증 링크가 담긴 메일 사례 (출처: Medium)</figcaption>
 </figure>
 
@@ -94,9 +94,9 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 아이디, 비밀번호 입력 방식 외에도 패스키, 일회용 번호, QR코드 등 모바일 앱과 연동한 다양한 인증 대체 수단을 제공하여 사용자가 선택할 수 있도록 한다. 
 
 <figure class="col3">
-	![](/images/kwcag22tech/image253.png)
-	![](/images/kwcag22tech/image255.png)
-	![](/images/kwcag22tech/image254.png)
+	![](/images/kwcag22tech/333/06.png)
+	![](/images/kwcag22tech/333/07.png)
+	![](/images/kwcag22tech/333/08.png)
 	<figcaption>이미지. 패스키(생체 인증), 일회용 번호, QR코드 등 다양한 대체 인증 수단을 제공한 사례 (출처: 네이버)</figcaption>
 </figure>
 
@@ -105,7 +105,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 사용자가 매번 아이디와 비밀번호를 기억하여 입력해야 하므로, 인지 능력이 제한된 경우 로그인 과정에서 어려움을 겪을 수 있다.
 
 <figure>
-	![](/images/kwcag22tech/image256.png)
+	![](/images/kwcag22tech/333/09.png)
 	<figcaption>이미지. 아이디, 비밀번호 외 다른 인증 수단이 제공되지 않은 로그인 예시</figcaption>
 </figure>
 
@@ -118,7 +118,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 왜곡된 문자 그림이나 빠르게 읽어주는 음성을 듣고 기억하여 입력해야 하므로 난독증 등 일부 사용자에게 매우 부담스러울 수 있다.
 
 <figure>
-	![](/images/kwcag22tech/image257.png)
+	![](/images/kwcag22tech/333/10.png)
 	<figcaption>이미지. 음성을 듣고 기억하여 입력하는 자동등록방지 사례</figcaption>
 </figure>
 
@@ -129,7 +129,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 이미지를 다운로드하기 위해서 캡챠 문자를 입력하고, 지시사항에 맞춰 캡챠 내 문자를 차례대로 선택해야 하는 방식은 시각 장애인, 난독증 등 일부 사용자는 해당 테스트를 수행하기 어렵다.
 
 <figure>
-	![](/images/kwcag22tech/image258.png)
+	![](/images/kwcag22tech/333/11.png)
 	<figcaption>이미지. 캡챠 내 문자를 요구한 순서대로 선택해야 하는 사례</figcaption>
 </figure>
 
@@ -144,7 +144,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 또한 복잡한 비밀번호 또는 인증 번호 등을 직접 입력해야 하므로 인지적 부담이 증가하고 입력 과정에서 오류가 발생할 가능성이 커진다.
 
 <figure>
-	![](/images/kwcag22tech/image259.png)
+	![](/images/kwcag22tech/333/12.png)
 	<figcaption>이미지. 구글 크롬의 Lighthouse로 접근성 검사 시, 붙여넣기 차단 코드 검출 사례 (출처: chrome for developers)</figcaption>
 </figure>
 

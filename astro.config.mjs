@@ -41,7 +41,7 @@ export default defineConfig({
             ],
 			sidebar: [
                 {
-                    label: '웹 접근성을 고려한 콘텐츠 제작기법 2.2',
+                    label: '웹 접근성을 고려한 콘텐츠 제작기법 2.2 개정판',
                     collapsed: false,
                     items: [
                         {

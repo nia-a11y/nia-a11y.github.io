@@ -3,7 +3,7 @@ title: 3.2.1. 사용자 요구에 따른 실행
 description: 사용자가 의도하지 않은 기능(새 창, 초점에 의한 맥락 변화 등)은 실행되지 않아야 한다.
 outline: { label:false }
 lastUpdated: 2025-03-31
-draft: true
+draft: false
 ---
 import { Aside, Badge, Card } from '@astrojs/starlight/components';
 
@@ -36,7 +36,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 관련 사이트로 이동하는 기능을 콤보박스로 구현할 때, 사용자는 옵션 선택 목록에서 이동할 사이트를 선택한 후 별도의 ‘이동’ 버튼을 실행해야 한다. 이러한 방식은 키보드 사용자가 방향키로 목록을 탐색하는 동안 원치 않는 사이트로 이동하는 문제를 방지할 수 있다.
 
 <figure>
-	![](/images/kwcag22tech/image221.png)
+	![](/images/kwcag22tech/321/01.png)
 	<figcaption>이미지. change 이벤트를 사용하지 않고 별도의 이동 버튼을 제공한 사례 (출처: 식의약데이터포털)</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 또한, 모든 사용자가 동등한 정보를 인식할 수 있도록 링크 옆에 새 창 아이콘을 추가하거나 '새 창 열림'과 같은 텍스트를 제공하여 시각적으로 구분되는 정보를 함께 제공하는 방법도 있다.
 
 <figure>
-	![](/images/kwcag22tech/image222.png)
+	![](/images/kwcag22tech/321/02.png)
 	<figcaption>이미지. 새 창 열림 정보가 사전 제공된 사례 (출처: 카카오)</figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 이에 따라 사용자는 예기치 않게 새 창이 열리고, 원래 창으로 돌아가기 위해 추가 조작이 필요하다.
 
 <figure>
-	![](/images/kwcag22tech/image223.png)
+	![](/images/kwcag22tech/321/03.png)
 	<figcaption>이미지. 시각적인 단서 없이 새 창으로 열리는 링크를 사용한 예시</figcaption>
 </figure>
 
@@ -103,7 +103,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 이로 인해 다른 옵션을 선택하기 어려워진다.
 
 <figure>
-	![](/images/kwcag22tech/image224.png)
+	![](/images/kwcag22tech/321/04.png)
 	<figcaption>이미지. change 이벤트에 자동으로 페이지가 이동하는 콤보박스 예시</figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ document.getElementById('family-site').addEventListener(
 팝업 창이 자동으로 열릴 경우, 팝업 창 실행이 사용자 동의 없이 이루어졌기 때문에 화면낭독프로그램 사용자는 자신이 다른 페이지로 이동했다고 혼동할 수 있고 따라서 현재 위치를 명확히 이해하지 못할 수 있다. 
 
 <figure>
-	![](/images/kwcag22tech/image225.png)
+	![](/images/kwcag22tech/321/05.png)
 	<figcaption>이미지. 페이지 진입 시 팝업 창이 자동으로 열리는 사례</figcaption>
 </figure>
 
