@@ -16,7 +16,7 @@ export default defineConfig({
         astroExpressiveCode(),
         mdx(),
 		starlight({
-            title: 'NIA 디지털 접근성',
+            title: 'NIA 디지털 접근성 아카이브',
             defaultLocale: 'root',
             locales: {
                 root: {
