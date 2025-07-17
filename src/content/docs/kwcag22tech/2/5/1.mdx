@@ -3,7 +3,7 @@ title: 2.5.1. 단일 포인터 입력 지원
 description: 다중 포인터 또는 경로기반 동작을 통한 입력은 단일 포인터 입력으로도 조작할 수 있어야 한다.
 outline: { label:false }
 lastUpdated: 2025-03-31
-draft: true
+draft: false
 ---
 import { Aside, Badge, Card } from '@astrojs/starlight/components';
 
@@ -35,17 +35,17 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 	<dd>마우스, 펜, 터치 등 화면에서 특정 위치(좌표 또는 좌표 집합)를 선택하거나 조작할 수 있는 입력 방식을 의미한다. (예: 터치스크린에서 손가락으로 화면을 누르거나, 마우스로 버튼을 클릭하는 동작)</dd>
 	<dt>단일 포인터(<span lang="en">single pointer</span>) </dt>
 	<dd>
-		<img src="/images/image192.png" alt="" class="desc-float" />
+		<img src="/images/kwcag22tech/251/01.png" alt="" class="desc-float" />
 		단일 탭, 클릭, 더블 탭, 길게 누르기 등을 포함하여, 화면과 접촉하는 한 지점에서 발생하는 포인터 입력을 말한다. 한 손가락 또는 마우스를 사용한 입력 방식은 모두 단일 포인터 입력에 해당한다.
 	</dd>
 	<dt>다중 포인터(<span lang="en">multipoint gesture</span>)</dt>
 	<dd>
-		<img src="/images/image193.png" alt="" class="desc-float" />
+		<img src="/images/kwcag22tech/251/02.png" alt="" class="desc-float" />
 		핀치 줌, 멀티 터치 회전, 세 손가락 탭 등 두 개 이상의 포인터를 사용하는 입력 방식을 의미한다.
 	</dd>
 	<dt>경로기반 동작(<span lang="en">path-based gesture</span>)</dt>
 	<dd>
-		<img src="/images/image194.png" alt="" class="desc-float" />
+		<img src="/images/kwcag22tech/251/03.png" alt="" class="desc-float" />
 		사용자가 화면에서 지정된 특정 경로나 모양(예: Z자, 원, 직선 등)을 그리는 입력 방식을 의미한다. 예를 들어, 한 방향으로 쓸어 넘기는 스와이프(swipe) 동작도 포함된다. 경로 기반 동작은 단순한 클릭이나 터치와 달리, 특정 방향이나 모양을 따라 손가락을 움직이는 방식이 포함된다.
 	</dd>
 </dl>
@@ -73,7 +73,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 다음은 지도를 확대, 축소해서 볼 수 있도록 두 손가락 핀치 줌 기능이 제공된 사례이다. 한 손가락으로 조작할 수 있는 ‘+’ 와 ‘-’ 버튼을 제공하여, 다중 포인터 동작이 어렵거나 불가능한 사용자도 쉽게 지도를 확대하고 축소할 수 있다.
 
 <figure>
-	![](/images/kwcag22tech/image195.png)
+	![](/images/kwcag22tech/251/04.png)
 	<figcaption>이미지. 확대, 축소 버튼을 제공한 지도 서비스 예시</figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 스와이프 제스처로 이전/다음 콘텐츠를 탐색하는 배너 영역에서, 한 손가락으로 조작할 수 있는 ‘이전/다음’ 버튼도 함께 제공한다. 이를 통해 스와이프 동작이 어려운 사용자도 쉽게 콘텐츠를 탐색할 수 있다.
 
 <figure>
-	![](/images/kwcag22tech/image196.png)
+	![](/images/kwcag22tech/251/05.png)
 	<figcaption>이미지. 이전, 다음 버튼이 제공된 배너 사례 (출처: EBS)</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 핀치 줌 인/아웃은 동시에 두 손가락으로 조작해야 하므로, 손가락 사용에 제약이 있는 사용자는 이 동작이 매우 어려울 수 있다. 또한, 음성 명령 사용자도 핀치 줌 명령을 내릴 수 없어 확대/축소 기능을 사용할 수 없다.
 
 <figure>
-	![](/images/kwcag22tech/image197.png)
+	![](/images/kwcag22tech/251/06.png)
 	<figcaption>이미지. 제스처로만 확대, 축소가 가능한 지도 사례</figcaption>
 </figure>
 
@@ -102,7 +102,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 다음은 끌기와 놓기를 통한 이미지 업로드 기능을 제공하는 웹 앨범 서비스의 사례이다. 끌기와 놓기 방식으로만 파일 첨부가 가능하도록 제공되고 있어, 포인터 입력에 제약이 있는 사용자나 화면을 볼 수 없는 사용자는 파일을 첨부하는 데 어려움을 겪을 수 있다.
 
 <figure>
-	![](/images/kwcag22tech/image198.png)
+	![](/images/kwcag22tech/251/07.png)
 	<figcaption>이미지. 파일 첨부 기능 제공 사례</figcaption>
 </figure>
 
@@ -113,7 +113,7 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 다음은 쇼핑몰에서 스와이프 제스처를 통해 이전/다음 콘텐츠를 보여주는 배너 사례이다. 좌/우 스와이프 제스처로만 조작할 수 있는 경우, 화면을 볼 수 없는 사용자나 손떨림이 심한 사용자는 해당 제스처를 수행하기 어려워 배너를 탐색할 수 없게 된다.
 
 <figure>
-	![](/images/kwcag22tech/image199.png)
+	![](/images/kwcag22tech/251/08.png)
 	<figcaption>이미지. 모바일 상단의 메인 배너 사례</figcaption>
 </figure>
 

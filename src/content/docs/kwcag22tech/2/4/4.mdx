@@ -3,7 +3,7 @@ title: 2.4.4. 고정된 참조 위치 정보
 description: 전자출판문서 형식의 웹 페이지는 각 페이지로 이동할 수 있는 기능이 있어야 하고, 서식이나 플랫폼에 상관없이 참조 위치 정보를 일관되게 제공ㆍ유지해야 한다.
 outline: { label:false }
 lastUpdated: 2025-03-31
-draft: true
+draft: false
 ---
 import { Aside, Badge, Card } from '@astrojs/starlight/components';
 
@@ -38,8 +38,10 @@ import { Aside, Badge, Card } from '@astrojs/starlight/components';
 
 <Card title="참고. 다운로드 받은 PDF 파일" icon="open-book">
 PDF 파일을 다운로드하여 브라우저에서 열 경우, 이는 전자출판문서 형식의 웹페이지로 제공된 것이 아니므로 검사 대상에서 제외된다. 즉, PDF 파일 자체를 제공할 때는 고정된 참조 위치 정보 제공이 요구되지 않는다.
-
-![이미지. 크롬 브라우저에서 PDF 파일을 직접 연 화면 예시](/images/image187.png)
+<figure>
+	![](/images/kwcag22tech/244/01.png)
+	<figcaption>이미지. 크롬 브라우저에서 PDF 파일을 직접 연 화면 예시</figcaption>
+</figure>
 </Card>
 
 ## 용어
@@ -58,7 +60,7 @@ PDF 파일을 다운로드하여 브라우저에서 열 경우, 이는 전자출
 이동 수단 중 하나로 목차(<abbr title="table of contents">TOC</abbr>)도 제공하였으나, 이는 각 페이지에 대한 고정된 참조 위치를 대체할 수 없으므로 충분한 이동 수단이 될 수 없다.
 
 <figure>
-	![](/images/kwcag22tech/image188.png)
+	![](/images/kwcag22tech/244/02.png)
 	<figcaption>이미지. ePub을 웹페이지로 제공하는 뷰어에서 글자 크기 및 줄 간격을 변경할 수 있는 설정 제공 사례</figcaption>
 </figure>
 
@@ -71,7 +73,7 @@ PDF로 발행된 보고서를 웹페이지로 제공한 사례이다. PDF 본문
 또한, 고정된 참조 위치 및 해당 페이지로 이동할 수 있는 기능이 없어, 사용자가 일일이 스크롤하여 원하는 내용을 찾아야 한다.
 
 <figure>
-	![](/images/kwcag22tech/image189.png)
+	![](/images/kwcag22tech/244/03.png)
 	<figcaption>이미지. PDF 보고서의 각 페이지를 이미지로 변환해 웹페이지로 제공한 사례</figcaption>
 </figure>
 
@@ -85,7 +87,7 @@ PDF로 발행된 보고서를 웹페이지로 제공한 사례이다. PDF 본문
 PDF 파일은 고정된 레이아웃을 가지므로 화면을 확대하거나 축소하더라도 페이지 정보가 변경되지 않고 그대로 유지되며, PDF 본문이 웹페이지로 직접 변환되어 있지 않다. 그러므로 고정된 참조 위치 정보가 필요하지 않으므로 검사 대상에서 제외된다.
 
 <figure>
-	![](/images/kwcag22tech/image190.png)
+	![](/images/kwcag22tech/244/04.png)
 	<figcaption>이미지. PDF를 그대로 보여주는 웹뷰어 사례 (출처: 알라딘)</figcaption>
 </figure>
 
@@ -93,6 +95,6 @@ PDF 파일은 고정된 레이아웃을 가지므로 화면을 확대하거나 �
 웹 페이지가 아닌, 별도의 뷰어 프로그램을 다운로드하여 설치 후 실행한 경우로, 웹 표준 기술을 사용하여 직접 제공된 전자출판문서가 아니므로 검사 대상이 아니다.
 
 <figure>
-	![](/images/kwcag22tech/image191.png)
+	![](/images/kwcag22tech/244/05.png)
 	<figcaption>이미지. 별도 설치 후 프로그램을 실행한 뷰어 사례</figcaption>
 </figure>
