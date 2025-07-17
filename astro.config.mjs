@@ -11,7 +11,7 @@ const commonKeywords = "웹, 접근성, 콘텐츠, 제작기법, KWCAG2.2, acces
 
 export default defineConfig({
     site: 'https://nia-a11y.github.io/',
-    base: process.env.NODE_ENV === 'production' ? '/' : '/kwcag22tech/',
+    base: process.env.NODE_ENV === '/',
 	integrations: [
         astroExpressiveCode(),
         mdx(),
