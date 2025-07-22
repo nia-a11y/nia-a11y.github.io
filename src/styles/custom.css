@@ -1,6 +1,11 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
 /* 링크 내부의 아이콘에 대한 스타일 */
 :root {
   --custom-link-icon-display: inline-block !important;
+}
+:root body {
+  font-family: 'Pretendard', sans-serif;
 }
 
 .sl-markdown-content a :is(img, picture, video, canvas, svg, iframe):not(:where(.not-content *)) {
