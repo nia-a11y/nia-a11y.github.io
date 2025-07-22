@@ -14,6 +14,20 @@
   margin-inline: 0.125em;
 }
 
+/* Footer */
+.customFoots {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid #ccc;
+}
+.customFoots p a {
+  text-decoration: none;
+}
+.customFoots p img {
+  width: 40px;
+  vertical-align: middle;
+}
+
 /* Left sidebar */
 .sidebar-content {
 }
@@ -34,6 +48,9 @@
 .right-sidebar-panel li a {
   border-radius: 0;
   padding: .25rem 0;
+}
+.right-sidebar-panel li a[aria-current="true"] {
+  text-decoration: underline;
 }
 
 /* Card 컴포넌트 조정 - 서브페이지에만 적용 */

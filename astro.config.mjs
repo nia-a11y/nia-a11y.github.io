@@ -31,9 +31,10 @@ export default defineConfig({
                 // }),
                 starlightFullViewMode({ leftSidebarEnabled: true, rightSidebarEnabled: true })
             ],
-            social: [{ icon: 'information', label: '원문 사이트', href: 'https://www.kioskui.or.kr/index.do?menu_id=00000976' }],
+            // social: [{ icon: 'information', label: '원문 사이트', href: 'https://www.kioskui.or.kr/index.do?menu_id=00000976' }],
             components: {
                 Head: './src/components/CustomHead.astro',
+                Footer: './src/components/CustomFooter.astro',
                 PageFrame: './src/components/CustomPageFrame.astro',
             },
             customCss: [
