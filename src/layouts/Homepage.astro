@@ -10,15 +10,16 @@ const { frontmatter } = Astro.props;
 	</head>
 	<body>
 		<slot />
-	</body><style>
-		:root body {
+	</body>
+	<style>
+		:root[data-theme="dark"] body {
 			background-size: cover;
 			background-attachment: fixed;
-		}
-		:root[data-theme="dark"] body {
 			background: url("../assets/dark1.png") no-repeat right bottom;
 		}
 		:root[data-theme="light"] body {
+			background-size: cover;
+			background-attachment: fixed;
 			background: url("../assets/light1.png") no-repeat right bottom;
 		}
 	</style>
