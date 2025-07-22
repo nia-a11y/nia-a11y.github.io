@@ -34,7 +34,7 @@
 
 ## 메뉴 수정
 * astro.config.mjs의 [sidebar 수정](https://starlight.astro.build/ko/guides/sidebar/#%EA%B8%B0%EB%B3%B8-%EC%82%AC%EC%9D%B4%EB%93%9C%EB%B0%94) 필요
-* 이름이 순차적일 경우 디렉토리 단이로도 읽어들이나, 경우에 따라 수동으로 순서를 지정해야 함.
+* 파일, 디렉토리 이름이 순차적일 경우 디렉토리 단위로도 설정할 수 있지만, 경우에 따라 수동으로 순서를 지정.
 
 ## 배포
 * github repository에 푸시하면 배포 워크플로 자동 실행
