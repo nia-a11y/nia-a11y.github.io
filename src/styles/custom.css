@@ -14,6 +14,11 @@
   margin-inline: 0.125em;
 }
 
+/* Header */
+header .title-wrapper + .sl-flex {
+  justify-content: flex-end;
+}
+
 /* Footer */
 .customFoots {
   margin-top: 4rem;
