@@ -19,12 +19,12 @@
 │   │   │   │   ├── 1~5			# 1~5장
 │   │   │   │   ├── index.mdx		# 문서 소개
 │   │   │   │   └── update.mdx		# 문서 갱신 이력
-│   │   │   └── index.mdx	# 홈페이지
+│   │   │   └── index.mdx		# 홈페이지
 │   │   └── i18n/			# 번역 파일
 │   ├── layouts/			# 개별 적용 레이아웃(홈)
 │   ├── styles/				# 커스텀 CSS
 │   └── content.config.ts		# 콘텐츠 설정 파일
-├── astro.config.mjs	# starlight 설정 파일
+├── astro.config.mjs			# starlight 설정 파일
 └── README.md				# 설명 파일
 ```
 
