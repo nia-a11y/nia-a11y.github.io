@@ -7,18 +7,18 @@
 ## 파일 구조
 ```
 .
-├── public/		# 웹 리소스
+├── public/						# 웹 리소스
 │   ├── images/				# 이미지 파일
 │   └── favicon.*			# 파비콘
 ├── src/
 │   ├── assets/				# 서버 사이드 이미지
-│   ├── components/		# 글꼴(Pretendard)
+│   ├── components/		# 컴포넌트
 │   ├── content/			# 콘텐츠
 │   │   ├── docs/			# 문서
 │   │   │   ├── kwcag22tech/		# 제작기법 2.2
-│   │   │   │   ├── 1~5					# 1~5장
+│   │   │   │   ├── 1~5			# 1~5장
 │   │   │   │   ├── index.mdx		# 문서 소개
-│   │   │   │   └── update.mdx	# 문서 갱신 이력
+│   │   │   │   └── update.mdx		# 문서 갱신 이력
 │   │   │   └── index.mdx				# 홈페이지
 │   │   └── i18n/			# 번역 파일
 │   ├── layouts/			# 개별 적용 레이아웃(홈)
