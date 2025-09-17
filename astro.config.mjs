@@ -165,7 +165,7 @@ export default defineConfig({
                             autogenerate: { directory: 'kwcag22tech/5' },
                         },
                         {
-                            'label': '문서 갱신 이력',
+                            'label': '문서 수정 이력',
                             link: 'kwcag22tech/update',
                         },
                     ]
